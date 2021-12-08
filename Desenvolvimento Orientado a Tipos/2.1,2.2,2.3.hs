@@ -4,6 +4,7 @@ module Main where
 
 -- Desenvolvimento Orientado a Tipos
 -- 2.1 Tipos, quem são, onde vivem e o quê comem
+-- https://www.youtube.com/watch?v=mKnkkAv3n2o&list=PLYItvall0TqKaY6qObQMlZ45Bo94xq9Ym&index=3
 
 -- Bool: True False
 -- Int: MININT .... -1 0 1 2 .... MAXINT
@@ -15,6 +16,7 @@ soma :: Num a => a -> a -> a
 soma a b = a + b
 
 -- 2.2 Classes de Tipos
+-- https://www.youtube.com/watch?v=nxvYbMOcL4w&list=PLYItvall0TqKaY6qObQMlZ45Bo94xq9Ym&index=4
 --soma :: Num a => a -> a -> a
 --soma = (+)
 --soma :: (Num a, Num b, Num c) => a -> b -> c
@@ -32,6 +34,7 @@ exemplo = 4 + 3.14
 --      - Integer
 
 -- 2.3 Polimorfismo Paramétrico
+-- https://www.youtube.com/watch?v=k25cJJ371jY&list=PLYItvall0TqKaY6qObQMlZ45Bo94xq9Ym&index=5
 -- [Int]
 -- [Char]
 -- [Float]
